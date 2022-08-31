@@ -9,5 +9,5 @@ Object.seal(bottle); //Seal ! seal korle porer line er delete ta backup dawa jab
 delete bottle.isCleaned //to delete a partycullar property
 bottle.price = 1000;// Seal korar por o values change kora jabe
 bottle.height = 12;// Seal korle new property add kora jab nah!
-console.log(bottle) //Delete
+// console.log(bottle) //Delete
 Object.freeze(bottle);//Freez korle object k delete kora jabe na, values update kora jabe na,new property add kora jabe na.. it's means freez.
